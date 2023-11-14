@@ -15,7 +15,7 @@ class BlogServiceProvider extends ServiceProvider
     {
        // dd('ass');
         if ($this->app->runningInConsole()) {
-            include __DIR__.'/routes.php';
+            //include __DIR__.'/routes.php';
          //   dd('ass');
         }
 
