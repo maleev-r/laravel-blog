@@ -1,4 +1,5 @@
-"name": "lucky-romka/laravel-blog",
+{
+  "name": "lucky-romka/laravel-blog",
   "description": "Laravel package blog",
   "license": "MIT",
   "authors": [
@@ -7,3 +8,4 @@
       "email": "maleev4you@gmail.com"
     }
   ]
+}
