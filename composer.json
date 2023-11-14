@@ -12,5 +12,14 @@
         "psr-4": {
             "LuckyRomka\\Blog\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LuckyRomka\\Blog\\BlogServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
     }
 }
