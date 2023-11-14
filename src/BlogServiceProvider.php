@@ -20,7 +20,7 @@ class BlogServiceProvider extends ServiceProvider
         }
 
         $this->publishes([
-            __DIR__.'/Config/LaravelBlog.php'        => config_path('LaravelBlog.php'),
+            __DIR__.'/../config/laravelblog.php'        => config_path('LaravelBlog.php'),
         ]);
     }
      public function register()
