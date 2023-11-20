@@ -13,12 +13,13 @@ class BlogServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-       // dd('ass');
         if ($this->app->runningInConsole()) {
             //include __DIR__.'/routes.php';
          //   dd('ass');
         }
 
+        $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadViewsFrom(__DIR__.'/Views', 'LaravelBlog');
         $this->publishes([
             __DIR__.'/../config/laravelblog.php'        => config_path('LaravelBlog.php'),
         ]);
