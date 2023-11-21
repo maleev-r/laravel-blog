@@ -20,6 +20,7 @@ class BlogServiceProvider extends ServiceProvider
 
         $this->loadRoutesFrom(__DIR__.'/routes.php');
         $this->loadViewsFrom(__DIR__.'/Views', 'LaravelBlog');
+        $this->loadMigrationsFrom(__DIR__.'/Migrations');
         $this->publishes([
             __DIR__.'/../config/laravelblog.php'        => config_path('LaravelBlog.php'),
         ]);
